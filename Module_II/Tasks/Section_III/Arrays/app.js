@@ -1,4 +1,4 @@
-var books = {
+let books = {
     [
         title: "Speaking JavaScript",
         author: "Axel Rauschmayer",
@@ -12,10 +12,14 @@ var books = {
     [
         title: "Understanding ECMAScript 6",
         author: "Nicholas C. Zakas",
-        pages: 352,    
+        pages: 352   
     ]};
     
     // adding new book
-    // title: "Learning JavaScript Design Patterns",
-    // author: "Addy Osmani",
-    // pages: 254,
+books[books.length] = {
+        title: "Learning JavaScript Design Patterns",
+        author: "Addy Osmani",
+        pages: 254
+    }
+    
+console.log(books[2]);
