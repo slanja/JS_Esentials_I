@@ -24,4 +24,6 @@ let newBook = {
     
 books.push(newBook);
     
-console.log(books.pages);
+for (let i = 0; i < books.length; i++) {   
+    console.log("Title: " + books[i].title + " Author: " + books[i].author + " Pages: " + books[i].pages);
+}
