@@ -5,4 +5,8 @@ var ticket = {
 };
 
 // printing all ticket values
-console.log(Object.values(ticket));
+console.log(`
+    Ticket from: ${ticket.startingStation}
+    \nTicket to: ${ticket.endStation}
+    \nTicket price: ${ticket.price}
+    `);
