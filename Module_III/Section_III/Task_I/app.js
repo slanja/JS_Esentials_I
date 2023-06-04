@@ -1,10 +1,10 @@
 // getting values
-a = window.prompt("Width:");
-b = prompt("Height:");
-c = prompt("Length:");
+let a = prompt("Width:");
+let b = prompt("Height:");
+let c = prompt("Length:");
 
 // formula for volume
-result = a * b * c;
+let result = a * b * c;
 
 // printing result using alert
 window.alert("Volume: " + result);
